@@ -31,7 +31,7 @@ $('#nav').affix({
 	$(document).scroll(function(){
 		var top = $('#skills').height()-$(window).scrollTop();
 		console.log(top);
-		if(top<90){
+		if(top<110){
 			if(index==0){	
 			
 				$('.chart').easyPieChart({
